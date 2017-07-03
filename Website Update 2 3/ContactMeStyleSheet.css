@@ -1,0 +1,21 @@
+
+h1, p {
+	font-size: 60px;
+	text-align: center;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: rgb(244, 66, 209);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a.hover {
+  	background-color: rgb(255, 190, 71);
+  	color: black;
+}
+.topnav a.active {
+    background-color: rgb(70, 214, 111);
+ 	color: white;
+}
