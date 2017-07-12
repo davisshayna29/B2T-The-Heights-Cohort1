@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="array"></p>
+	<script type="text/javascript">
+		
+		var fruits = ["apple", "orange", "kiwi"];
+
+		//*creates an input to add more fruit*//
+		var input = prompt("Add more fruit:");
+		
+		fruits.push(input);
+
+		//*Removes first element in array*//
+		fruits.shift();
+
+		//*Sorts elements alphabetically*//
+		fruits.sort();
+
+		document.getElementById("array").innerHTML= fruits.join(" with ");
+
+	</script>
+</body>
+</html>
