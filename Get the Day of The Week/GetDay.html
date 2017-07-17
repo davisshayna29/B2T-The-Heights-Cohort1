@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Today's Date is  </h1>
+
+	<!--Inputs the day of the week-->
+	<p id="weekday"></p>
+
+
+	<script type="text/javascript">
+		
+		//creates a variable name ele to get the ID for weekday//
+		var ele = document.getElementById("weekday");
+
+		//variable for new Date//
+		var date = new Date();
+		//shows case for each day of the week//
+		switch(date.getDay()) {
+			case 0: document.getElementById("weekday").innerHTML = "sunday";
+				break
+			case 1: document.getElementById("weekday").innerHTML = "monday";
+				break
+			case 2: document.getElementById("weekday").innerHTML = "tuesday";
+				break
+			case 3: document.getElementById("weekday").innerHTML = "wednesday";
+				break
+			case 4: document.getElementById("weekday").innerHTML = "thursday";
+				break
+			case 5: document.getElementById("weekday").innerHTML = "friday";
+				break
+			case 6: document.getElementById("weekday").innerHTML = "saturday";
+				break;
+		}
+		
+
+
+
+	</script>
+</body>
+</html>
