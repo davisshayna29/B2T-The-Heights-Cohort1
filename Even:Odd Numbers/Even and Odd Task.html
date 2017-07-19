@@ -6,17 +6,30 @@
 <body>
 
 
+
+
+
+
 	<script type="text/javascript">
 		
-		var num = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+		//tells the loop when to end//
+		var num = 15;
+
+		//indicates when the number begins also being used for counter for the loop//
 		var index = 0;
-		while(index < num.length){
-			if(num[index]%2 == 0){
-				console.log(num[index] + " is an even number")	
+
+		//specifies in the condition is true//
+		while(index < num){
+
+			//if the number is divisible by two it is even//
+			if(index%2 == 0){
+				console.log(index + " is an even number")	
+			//if the number is not divisible by two it is odd	
 			}else{
-				console.log(num[index] + " is an odd number")
+				console.log(index + " is an odd number")
 			}
 			
+			//incrementing index//
 			index++;
 		}
 
