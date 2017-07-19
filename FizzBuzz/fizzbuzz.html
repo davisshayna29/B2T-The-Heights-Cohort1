@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		//when the number begins used to counter for loop
+		var index = 0;
+		
+		//the specified condition
+		while(index <= 100){
+			//if index is a factor of three and five the result
+			if(index%3 == 0 && index%5 == 0){
+				console.log("fizz buzz");
+			//if index is a factor of five the result	
+			}else if(index%5 == 0){
+				console.log("buzz");
+			//if index is factor of three the result	
+			}else if(index%3 == 0){
+				console.log("fizz");
+			//if none are factors of three and five display number	
+			}else{
+				console.log(index);
+			}
+			//increments the index
+			index++;
+		}
+
+
+	</script>
+</body>
+</html>
